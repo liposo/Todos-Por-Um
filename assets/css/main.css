@@ -80,24 +80,12 @@ a:after {
 
 #headerwrap {
 	background: url(../img/Capa.png) no-repeat center top;
-	margin-top: -10px;
-	padding-top:20px;
-	text-align:center;
+	background-color: white;
 	background-attachment: relative;
 	background-position: center center;
-	background-size: 100% 100%;
-	min-height: 700px;
+	min-height: 500px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    	background-size: 100%;
 }
 
 #headerwrap h1 {
