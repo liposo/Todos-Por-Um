@@ -81,11 +81,19 @@ a:after {
 #headerwrap {
 	background: url(../img/Capa.png) no-repeat center top;
 	background-color: white;
+	margin-top: -10px;
+	padding-top:20px;
+	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 500px;
+	background-size: 100% 100%;
+	min-height: 600px;
 	width: 100%;
-    	background-size: 100%;
+	
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
 #headerwrap h1 {
